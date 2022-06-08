@@ -133,6 +133,21 @@ similar titles:
 基金公司谨慎看多明年市场
 ```
 
+# 补充
+
+Q：怎么训练得到自己文本的句向量？<br>
+
+A：参考news_title.txt里面，每一行一句话。<br>
+
+Q：我的query是句子，语义库是由文档构成的，怎么获取文档的向量？<br>
+
+A：或许可以对文档进行分句，然后得到每一句的句向量，最后对这些句向量进行融合。<br>
+
+Q：获取的向量库应用？<br>
+
+A：可以制作成基于检索的问答系统，可参考[taishan1994/WebQA_tfidf: 针对于百度WebQA数据集，利用TF-IDF等模型构建的问答系统 (github.com)](https://github.com/taishan1994/WebQA_tfidf)。这里使用的是基于tf-idf的检索，或许可以替换成这里的句向量的检索。
+
 # 参考
 
 > https://github.com/KwangKa/SIMCSE_unsup
+
