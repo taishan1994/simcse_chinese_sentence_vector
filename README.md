@@ -33,6 +33,10 @@ transorboardX
 python train_unsup.py --train_file data/news_title.txt --pretrained model_hub/chinese-bert-wwm-ext/
 ```
 
+损失函数曲线：
+
+[image](https://github.com/taishan1994/simcse_chinese_sentence_vector/blob/main/image/loss.png)
+
 # 句向量的使用
 
 这里贴下基本代码：
